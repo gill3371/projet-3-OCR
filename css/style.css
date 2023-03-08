@@ -5,6 +5,8 @@ body {
     margin: auto;
 }
 
+/* HEADER */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -28,4 +30,10 @@ nav li {
 
 .menu:hover {
     border-top: 2px solid blue;
+}
+
+/* SECTION SEARCH */
+
+#search, #result #{
+    background-color: grey;
 }
