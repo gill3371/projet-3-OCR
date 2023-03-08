@@ -1,0 +1,8 @@
+/* fonts used */
+/* font-family: 'PT Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+header {
+    display: flex;
+    flex-direction: row;
+}
