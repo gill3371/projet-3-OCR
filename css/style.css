@@ -1,8 +1,25 @@
+:root {
+    --blue-main: #0065fc;
+    --blue-light: #deebff;
+    --grey-booki: #d9d9d9;
+}
+
 body {
     font-family: 'PT Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
     width: 90%;
     margin: auto;
+}
+
+/* HTML TAG */
+
+h1 {
+
+}
+
+h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.25rem;
 }
 
 /* HEADER */
@@ -32,8 +49,41 @@ nav li {
     border-top: 2px solid blue;
 }
 
+/* SECTION */
+
+#search, #activities {
+    background-color: lightgrey;
+}
+
 /* SECTION SEARCH */
 
-#search, #result #{
-    background-color: grey;
+#result {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-result {
+    width: 55%;
+    background-color: lightgrey;
+    padding: 0 16px 0 16px;
+}
+
+.popular-result {
+    background-color: lightgrey;
+    width: 35%;
+    padding: 0 16px 0 16px;
+    /* display: flex; */
+}
+
+.popular-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* FORAWESOME */
+
+.fa-chart-line {
+    color: var(--blue-main)
 }
