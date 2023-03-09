@@ -32,7 +32,7 @@ h4 {
 
 p {
     margin: 0;
-    font-size: .75rem;
+    font-size: .8rem;
 }
 
 a {
@@ -107,14 +107,14 @@ form {
 } */
 
 .fa-location-dot {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     text-align: center;
     vertical-align: middle;
     background-color: var(--grey-booki);
     width: 40px;
     height: 40px;
     border-radius: 16px 0 0 16px;
-    /* padding: auto; */
+    /* padding: 8px 0 8px 0; */
 }
 
 input {
@@ -272,7 +272,7 @@ button {
 
 .activities-card img {
     width: 100%;
-    height: 300px;
+    height: 400px;
     border-radius: 12px 12px 0 0 ;
     object-fit: cover;
     object-position: center;
@@ -298,6 +298,7 @@ footer {
 }
 
 .footer-list a {
+    font-size: .85rem;
     display: block;
     color: black;
     text-decoration: none;
