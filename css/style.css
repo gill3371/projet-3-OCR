@@ -100,16 +100,11 @@ form {
     margin-top: 12px;
 }
 
-/* .search-icon {
-    background-color: var(--grey-booki);
-    width: 40px;
-    height: 40px;
-} */
-
 .fa-location-dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.15rem;
-    text-align: center;
-    vertical-align: middle;
     background-color: var(--grey-booki);
     width: 40px;
     height: 40px;
@@ -118,22 +113,20 @@ form {
 }
 
 input {
-    border: 0;
+    border: 1px solid var(--grey-booki);
     text-align: center;
     font-size: 1rem;
     font-weight: 700;
     color: black;
-    border: 1px solid var(--grey-booki);
 }
 
 button {
     border: 0;
+    border-radius: 0 16px 16px 0;
     background-color: var(--blue-main);
     color: white;
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     width: 120px;
-    border-radius: 0 16px 16px 0;
 }
 
 /* SECTION RESULT */
@@ -155,7 +148,6 @@ button {
 }
 
 .main-result a {
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: black;
     text-decoration: none;
@@ -216,6 +208,11 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.fa-chart-line {
+    color: var(--blue-main);
+    font-size: 1.25rem;
 }
 
 /* POPULAR CARD */
@@ -305,10 +302,6 @@ footer {
 }
 
 /* FORAWESOME */
-
-.fa-chart-line {
-    color: var(--blue-main);
-}
 
 .fa-star {
     color: var(--blue-main);
