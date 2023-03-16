@@ -14,7 +14,8 @@ body {
 
 h1 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    padding-bottom: 8px;
 }
 
 h2 {
@@ -58,9 +59,9 @@ header {
 
 header img {
     object-fit: contain;
-    width: 10%;
+    width: 7%;
     min-width: 40px;
-    max-width: 80px;
+    max-width: 60px;
 }
 
 nav ul {
@@ -112,7 +113,7 @@ em {
 /* SECTION */
 
 #search {
-    padding: 16px 0 48px 0;
+    padding: 16px 0 32px 0;
 }
 
 #activities {
@@ -124,7 +125,7 @@ em {
 form {
     display: flex;
     flex-direction: row;
-    margin-top: 12px;
+    margin-top: 24px;
 }
 
 .fa-location-dot {
@@ -136,7 +137,6 @@ form {
     width: 40px;
     height: 40px;
     border-radius: 16px 0 0 16px;
-    /* padding: 8px 0 8px 0; */
 }
 
 input {
@@ -158,7 +158,7 @@ button {
 
 .filter-box {
     display: flex;
-    padding-top: 16px;
+    padding-top: 24px;
 }
 
 .filter-box h4 {
@@ -190,6 +190,30 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+.info-city {
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+}
+
+.info-city i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--grey-booki);
+    border-radius: 512px;
+}
+
+.fa-info {
+    font-size: 0.7em;
+    font-weight: 900;
+    color: var(--blue-main);
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
 
 /* SECTION RESULT */
 
@@ -243,7 +267,12 @@ button {
     object-position: center;
 }
 
-.main-card h3, p {
+.main-card h3 {
+    margin: 4px 0 0 0 ;
+    padding-left: 8px;
+}
+
+.main-card p {
     margin: 4px 0 0 0 ;
     padding-left: 8px;
 }
@@ -294,6 +323,11 @@ button {
 }
 
 .popular-card h3 {
+    margin: 4px 0 0 0 ;
+    padding-left: 8px;
+}
+
+.popular-card p {
     margin: 4px 0 0 0 ;
     padding-left: 8px;
 }
