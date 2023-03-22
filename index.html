@@ -1,261 +1,274 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://kit.fontawesome.com/9638868f99.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-<!-- header -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
 
     <header>
-        <img src="images/logo/Booki.png" alt="logo-booki">
-        <nav>
-            <ul>
-                <li class="menu">
-                    <a href="">Hébergements</a>
-                </li>
-                <li class="menu">
-                    <a href="">Activités</a>
-                </li>
-            </ul>
-        </nav>
+      <img src="images/logo/Booki.png" alt="logo-booki" />
+      <nav>
+        <ul>
+          <li class="menu">
+            <a href="#result">Hébergements</a>
+          </li>
+          <li class="menu">
+            <a href="#activities">Activités</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
-<!-- main -->
+    <!-- main -->
 
     <main>
-  
-        <!-- section search -->
+      <!-- section search -->
 
-        <section id="search">
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre-ville ou en pleine nature</p>
-            <form method="get" action="" class="search-bar">
-                <i class="fa-solid fa-location-dot"></i>
-                <input type="text" name="localisation" id="localisation" placeholder="Saisir votre ville" size="30" maxlength="20">
-                <button>Recherche</button>
-            </form>
-            <div class="filter-box">
-                <h4>Filtres</h4>
-                <a href="#" class="filter-button">
-                    <i class="fa-solid fa-money-bill-wave"></i>
-                    <h5>Économique</h4>
-                </a>
-                <a href="#" class="filter-button">
-                    <i class="fa-solid fa-money-bill-wave"></i>
-                    <h5>Économique</h4>
-                    </a>
-                <a href="#" class="filter-button">
-                    <i class="fa-solid fa-money-bill-wave"></i>
-                    <h5>Économique</h4>
-                    </a>
-                <a href="#" class="filter-button">
-                    <i class="fa-solid fa-money-bill-wave"></i>
-                    <h5>Économique</h4>
-                    </a>
-            </div>
-            <div class="info-city">
-                <i class="fa-solid fa-info"></i>
-                <p>Plus de 500 logements sont disponible dans cette ville</p>
-            </div>
-        </section>
+      <section id="search">
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p>En plein centre-ville ou en pleine nature</p>
+        <form method="get" action="" class="search-bar">
+          <i class="fa-solid fa-location-dot"></i>
+          <input type="text" name="localisation" id="localisation" placeholder="Saisir votre ville" size="30" maxlength="20" />
+          <button>Rechercher</button>
+        </form>
+        <div class="filter-box">
+          <h2>Filtres</h2>
+          <a href="#" class="filter-button">
+            <i class="fa-solid fa-money-bill-wave"></i>
+            <span>Économique</span>
+          </a>
+          <a href="#" class="filter-button">
+            <i class="fa-solid fa-money-bill-wave"></i>
+            <span>Économique</span>
+          </a>
+          <a href="#" class="filter-button">
+            <i class="fa-solid fa-money-bill-wave"></i>
+            <span>Économique</span>
+          </a>
+          <a href="#" class="filter-button">
+            <i class="fa-solid fa-money-bill-wave"></i>
+            <span>Économique</span>
+          </a>
+        </div>
+        <div class="info-city">
+          <i class="fa-solid fa-info"></i>
+          <p>Plus de 500 logements sont disponible dans cette ville</p>
+        </div>
+      </section>
 
-<!-- section result -->
+      <!-- section result -->
 
-        <section id="result">
-
+      <section id="result">
         <!-- main-result zone -->
 
-            <div class="main-result">
-                <h2>Hébergement à Marseile</h2>
-                <div class="main-result-box">
-                    <div class="main-card shadow">
-                        <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port">
-                        <h3>Hôtel du port</h3>
-                        <p class="price">Nuit à partir de <span>52 €</span></p>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>    
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>  
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star inactive-star" ></i>   
-                        </div>
-                    </div>
-                    <div class="main-card shadow">
-                        <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port">
-                        <h3>Hôtel du port</h3>
-                        <p class="price">Nuit à partir de <span>52 €</span></p>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>    
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>  
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star inactive-star"></i>   
-                        </div>
-                    </div>
-                    <div class="main-card shadow">
-                        <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port">
-                        <h3>Hôtel du port</h3>
-                        <p class="price">Nuit à partir de <span>52 €</span></p>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>    
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>  
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star inactive-star"></i>   
-                        </div>
-                    </div>
-                    <div class="main-card shadow">
-                        <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port">
-                        <h3>Hôtel du port</h3>
-                        <p class="price">Nuit à partir de <span>52 €</span></p>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>    
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>  
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star inactive-star"></i>   
-                        </div>
-                    </div>
-                    <div class="main-card shadow">
-                        <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port">
-                        <h3>Hôtel du port</h3>
-                        <p class="price">Nuit à partir de <span>52 €</span></p>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>    
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>  
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star inactive-star" ></i>   
-                        </div>
-                    </div>
-                    <div class="main-card shadow">
-                        <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port">
-                        <h3>Hôtel du port</h3>
-                        <p class="price">Nuit à partir de <span>52 €</span></p>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>    
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>  
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star inactive-star"></i>   
-                        </div>
-                    </div>
-                <a href="#">Afficher plus</a>
+        <div class="main-result">
+          <h1>Hébergement à Marseile</h1>
+          <div class="main-result-box">
+            <article class="main-card">
+              <a class="shadow" href="#">
+                <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port" />
+                <h3>Hôtel du port</h3>
+                <p>Nuit à partir de <em>52 €</em></p>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star inactive-star"></i>
                 </div>
-            </div>
+              </a>
+            </article>
+            <article class="main-card">
+              <a class="shadow" href="#">
+                <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port" />
+                <h3>Hôtel du port</h3>
+                <p class="price">Nuit à partir de <span>52 €</span></p>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star inactive-star"></i>
+                </div>
+              </a>
+            </article>
+            <article class="main-card">
+              <a class="shadow" href="#">
+                <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port" />
+                <h3>Hôtel du port</h3>
+                <p class="price">Nuit à partir de <span>52 €</span></p>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star inactive-star"></i>
+                </div>
+              </a>
+            </article>
+            <article class="main-card">
+              <a class="shadow" href="#">
+                <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port" />
+                <h3>Hôtel du port</h3>
+                <p class="price">Nuit à partir de <span>52 €</span></p>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star inactive-star"></i>
+                </div>
+              </a>
+            </article>
+            <article class="main-card">
+              <a class="shadow" href="#">
+                <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port" />
+                <h3>Hôtel du port</h3>
+                <p class="price">Nuit à partir de <span>52 €</span></p>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star inactive-star"></i>
+                </div>
+              </a>
+            </article>
+            <article class="main-card">
+              <a class="shadow" href="#">
+                <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port" />
+                <h3>Hôtel du port</h3>
+                <p class="price">Nuit à partir de <span>52 €</span></p>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star inactive-star"></i>
+                </div>
+              </a>
+            </article>
+          </div>
+          <a class="more" href="#">Afficher plus</a>
+        </div>
 
         <!-- popular zone -->
 
-            <div class="popular-result">
-                <div class="popular-title">
-                    <h2>Les plus populaires</h2>
-                    <i class="fa-solid fa-chart-line"></i>
+        <div class="popular-result">
+          <div class="popular-title">
+            <h1>Les plus populaires</h1>
+            <i class="fa-solid fa-chart-line"></i>
+          </div>
+          <article class="popular-card">
+            <a href="#" class="shadow">
+              <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port" />
+              <div class="popular-card-info">
+                <div class="popular-text">
+                  <h3>Hôtel du port</h3>
+                  <p>Nuit à partir de <span>52 €</span></p>
                 </div>
-                <div class="popular-card shadow">
-                        <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port">
-                        <div class="popular-card-info">
-                            <div class="popular-text">
-                                <h3>Hôtel du port</h3>
-                                <p class="price">Nuit à partir de <span>52 €</span></p>
-                            </div>
-                            <div class="rating">
-                                <i class="fa-solid fa-star"></i>    
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>  
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star inactive-star"></i>       
-                            </div>
-                        </div>
-                    </div>
-                <div class="popular-card shadow">
-                        <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port">
-                        <div class="popular-card-info">
-                            <div class="popular-text">
-                                <h3>Hôtel du port</h3>
-                                <p class="price">Nuit à partir de <span>52 €</span></p>
-                            </div>
-                            <div class="rating">
-                                <i class="fa-solid fa-star"></i>    
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>  
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star inactive-star"></i>       
-                            </div>
-                        </div>
-                    </div>
-                <div class="popular-card shadow">
-                        <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port">
-                        <div class="popular-card-info">
-                            <div class="popular-text">
-                                <h3>Hôtel du port</h3>
-                                <p class="price">Nuit à partir de <span>52 €</span></p>
-                            </div>
-                            <div class="rating">
-                                <i class="fa-solid fa-star"></i>    
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>  
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star inactive-star"></i>       
-                            </div>
-                        </div>
-                    </div>
-            </div>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star inactive-star"></i>
+                </div>
+              </div>
+            </a>  
+          </article>
+          <article class="popular-card">
+            <a href="#" class="shadow">
+              <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port" />
+              <div class="popular-card-info">
+                <div class="popular-text">
+                  <h3>Hôtel du port</h3>
+                  <p class="price">Nuit à partir de <span>52 €</span></p>
+                </div>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star inactive-star"></i>
+                </div>
+              </div>
+            </a>  
+          </article>
+          <article class="popular-card">
+            <a href="#" class="shadow">
+              <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port" />
+              <div class="popular-card-info">
+                <div class="popular-text">
+                  <h3>Hôtel du port</h3>
+                  <p class="price">Nuit à partir de <span>52 €</span></p>
+                </div>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star inactive-star"></i>
+                </div>
+              </div>
+            </a>  
+          </article>
+        </div>
+      </section>
 
-        </section>
+      <!-- section activities -->
 
-    <!-- section activities -->
-
-        <section id="activities">
-            <h2>Activités à Marseile</h2>
-                <div class="activities-box">
-                    <div class="activities-card shadow">
-                        <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port">
-                        <h3>Vieux-port</h3>
-                    </div>
-                    <div class="activities-card shadow">
-                        <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port">
-                        <h3>Vieux-port</h3>
-                    </div>
-                    <div class="activities-card shadow">
-                        <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port">
-                        <h3>Vieux-port</h3>
-                    </div>
-                    <div class="activities-card shadow">
-                        <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port">
-                        <h3>Vieux-port</h3>
-                    </div>
-                </div>    
-        </section>
-
+      <section id="activities">
+        <h1>Activités à Marseile</h1>
+        <div class="activities-box">
+          <div class="activities-card shadow">
+            <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port" />
+            <h3>Vieux-port</h3>
+          </div>
+          <div class="activities-card shadow">
+            <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port" />
+            <h3>Vieux-port</h3>
+          </div>
+          <div class="activities-card shadow">
+            <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port" />
+            <h3>Vieux-port</h3>
+          </div>
+          <div class="activities-card shadow">
+            <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port" />
+            <h3>Vieux-port</h3>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <div class="footer-list">
-            <h4>A propos</h4>
-            <a href="#">Fonctionnement du site</a>
-            <a href="#">Conditions générales</a>
-            <a href="#">Données et confidentialité</a>
-        </div>
-        <div class="footer-list">
-            <h4>A propos</h4>
-            <a href="#">Fonctionnement du site</a>
-            <a href="#">Conditions générales</a>
-            <a href="#">Données et confidentialité</a>
-        </div>
-        <div class="footer-list">
-            <h4>A propos</h4>
-            <a href="#">Fonctionnement du site</a>
-            <a href="#">Conditions générales</a>
-            <a href="#">Données et confidentialité</a>
-        </div>
+      <div class="footer-list">
+        <h2>A propos</h2>
+        <a href="#"><p>Fonctionnement du site</p></a>
+        <a href="#">Conditions générales</a>
+        <a href="#">Données et confidentialité</a>
+      </div>
+      <div class="footer-list">
+        <h2>A propos</h2>
+        <a href="#"><p>Fonctionnement du site</p></a>
+        <a href="#">Conditions générales</a>
+        <a href="#">Données et confidentialité</a>
+      </div>
+      <div class="footer-list">
+        <h2>A propos</h2>
+        <a href="#"><p>Fonctionnement du site</p></a>
+        <a href="#">Conditions générales</a>
+        <a href="#">Données et confidentialité</a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
