@@ -36,10 +36,15 @@
       <section id="search">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre-ville ou en pleine nature</p>
-        <form method="get" action="" class="search-bar">
+        <form class="desktop-button" method="get" action="" class="search-bar">  <!-- Formuliare de recherche -->
           <i class="fa-solid fa-location-dot"></i>
           <input type="text" name="localisation" id="localisation" placeholder="Saisir votre ville" size="30" maxlength="20" />
           <button>Rechercher</button>
+        </form>
+        <form class="mobile-button" method="get" action="" class="search-bar">  <!-- Formuliare de recherche -->
+          <i class="fa-solid fa-location-dot"></i>
+          <input type="text" name="localisation" id="localisation" placeholder="Saisir votre ville" size="30" maxlength="20" />
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
         <div class="filter-box">
           <h2>Filtres</h2>
@@ -76,7 +81,7 @@
           <div class="main-result-box">
             <article class="main-card">
               <a class="shadow" href="#">
-                <img src="images/hebergements/fred-kleber.jpg" alt="Hotel du Port" />
+                <img src="images/hebergements/fred-kleber.jpg" alt="Hébergement Marseil - Hotel du Port" />
                 <h3>Hôtel du port</h3>
                 <p>Nuit à partir de <em>52 €</em></p>
                 <div class="star">
@@ -90,7 +95,7 @@
             </article>
             <article class="main-card">
               <a class="shadow" href="#">
-                <img src="images/hebergements/febrian-zakaria.jpg" alt="Hotel du Port" />
+                <img src="images/hebergements/febrian-zakaria.jpg" alt="Hébergement Marseil - Hôtel Chez Amina" />
                 <h3>Hôtel Chez Amina</h3>
                 <p class="price">Nuit à partir de <span>96 €</span></p>
                 <div class="star">
@@ -104,7 +109,7 @@
             </article>
             <article class="main-card">
               <a class="shadow" href="#">
-                <img src="images/hebergements/reisetopia.jpg" alt="Hotel du Port" />
+                <img src="images/hebergements/reisetopia.jpg" alt="Hébergement Marseil - Hôtel Les Mouettes" />
                 <h3>Hôtel Les Mouettes</h3>
                 <p class="price">Nuit à partir de <span>76 €</span></p>
                 <div class="star">
@@ -118,7 +123,7 @@
             </article>
             <article class="main-card">
               <a class="shadow" href="#">
-                <img src="images/hebergements/annie-spratt.jpg" alt="Hotel du Port" />
+                <img src="images/hebergements/annie-spratt.jpg" alt="Hébergement Marseil - Hôtel de la mer" />
                 <h3>Hôtel de la mer</h3>
                 <p class="price">Nuit à partir de <span>46 €</span></p>
                 <div class="star">
@@ -132,7 +137,7 @@
             </article>
             <article class="main-card">
               <a class="shadow" href="#">
-                <img src="images/hebergements/marcus-loke.jpg" alt="Hotel du Port" />
+                <img src="images/hebergements/marcus-loke.jpg" alt="Hébergement Marseil - Hôtel La Canebière" />
                 <h3>Hôtel La Canebière</h3>
                 <p class="price">Nuit à partir de <span>25 €</span></p>
                 <div class="star">
@@ -146,7 +151,7 @@
             </article>
             <article class="main-card">
               <a class="shadow" href="#">
-                <img src="images/hebergements/nicate-lee.jpg" alt="Hotel du Port" />
+                <img src="images/hebergements/nicate-lee.jpg" alt="Hébergement Marseil - Hôtel Le Panier" />
                 <h3>Hôtel Le Panier</h3>
                 <p class="price">Nuit à partir de <span>23 €</span></p>
                 <div class="star">
@@ -171,7 +176,7 @@
           </div>
           <article class="popular-card">
             <a href="#" class="shadow">
-              <img src="images/hebergements/emile-guillemot.jpg" alt="Hotel du Port" />
+              <img src="images/hebergements/emile-guillemot.jpg" alt="Hébergement populaire Marseille - Hôtel La Canebière" />
               <div class="popular-card-info">
                 <div class="popular-text">
                   <h3>Hôtel La Canebière</h3>
@@ -189,7 +194,7 @@
           </article>
           <article class="popular-card">
             <a href="#" class="shadow">
-              <img src="images/hebergements/aw-creative.jpg" alt="Hotel du Port" />
+              <img src="images/hebergements/aw-creative.jpg" alt="Hébergement populaire Marseille - Chambres d'hôtes Au cœur de l'eau" />
               <div class="popular-card-info">
                 <div class="popular-text">
                   <h3>Chambres d'hôtes Au cœur de l'eau</h3>
@@ -207,7 +212,7 @@
           </article>
           <article class="popular-card">
             <a href="#" class="shadow">
-              <img src="images/hebergements/febrian-zakaria2.jpg" alt="Hotel du Port" />
+              <img src="images/hebergements/febrian-zakaria2.jpg" alt="Hébergement populaire Marseille - Hôtel Bleu et Blanc" />
               <div class="popular-card-info">
                 <div class="popular-text">
                   <h3>Hôtel Bleu et Blanc</h3>
@@ -233,25 +238,25 @@
         <div class="activities-box">
           <article class="activities-card shadow">
             <a href="#">
-              <img src="images/activites/reno-laithienne.jpg" alt="Hotel du Port" />
+              <img src="images/activites/reno-laithienne.jpg" alt="Activités à Marseille - Vieux-port" />
               <h3>Vieux-port</h3>
             </a>
           </article>
           <article class="activities-card shadow">
             <a href="#">
-              <img src="images/activites/paul-hermann.jpg" alt="Hotel du Port" />
+              <img src="images/activites/paul-hermann.jpg" alt="Activités à Marseille - Fort de Pomègues" />
               <h3>Fort de Pomègues</h3>
             </a>
           </article>
           <article class="activities-card shadow">
             <a href="#">
-              <img src="images/activites/kilyan-sockalingum.jpg" alt="Hotel du Port" />
+              <img src="images/activites/kilyan-sockalingum.jpg" alt="Activités à Marseille - Parc national des Calanques" />
               <h3>Parc national des Calanques</h3>
             </a>
           </article>
           <article class="activities-card shadow">
             <a href="#">
-              <img src="images/activites/florian-wehde.jpg" alt="Hotel du Port" />
+              <img src="images/activites/florian-wehde.jpg" alt="Activités à Marseille - Notre-Dame-de-la-Garde" />
               <h3>Notre-Dame-de-la-Garde</h3>
             </a>
           </article>

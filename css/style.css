@@ -7,14 +7,19 @@
 body {
   font-family: "Raleway", sans-serif;
   width: 90%;
-  min-width: 1024px;
+  min-width: 1000px;
   max-width: 1440px;
   margin: auto;
 }
 
 /* HTML TAG */
 
-h1, h2, h3, h4, p, a {
+h1,
+h2,
+h3,
+h4,
+p,
+a {
   margin: 0;
 }
 
@@ -46,8 +51,8 @@ p {
 }
 
 a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 i {
@@ -121,7 +126,6 @@ nav li {
 
 form {
   display: flex;
-  flex-direction: row;
   margin-top: 24px;
 }
 
@@ -144,7 +148,25 @@ input {
   color: black;
 }
 
-button {
+@media all and (max-width: 1280px) {
+  .desktop-button {
+    display: none;
+  }
+  .mobile-button {
+    display: flex;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .desktop-button {
+    display: flex;
+  }
+  .mobile-button {
+    display: none;
+  }
+}
+
+.desktop-button button {
   border: 0;
   border-radius: 0 16px 16px 0;
   background-color: var(--blue-main);
@@ -152,6 +174,17 @@ button {
   font-size: 1.125em;
   font-weight: 700;
   width: 140px;
+}
+
+.mobile-button button {
+  border: 0;
+  border-radius: 16px;
+  background-color: var(--blue-main);
+  color: white;
+  font-size: 1.125em;
+  width: 50px;
+  position: relative;
+  left: -15px;
 }
 
 .filter-box {
@@ -212,7 +245,7 @@ button {
   --result-gap: 32px;
   display: flex;
   flex-direction: row;
-  gap: var(--result-gap);  
+  gap: var(--result-gap);
 }
 
 .main-result,
@@ -224,20 +257,20 @@ button {
 }
 
 .main-result {
-  width: calc(70% - var(--result-gap)/2 );
+  width: calc(65% - var(--result-gap) / 2);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .popular-result {
-  width: calc(30% - var(--result-gap)/2 );
+  width: calc(35% - var(--result-gap) / 2);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-/* MAIN RESULT BOX */
+/* RESULT MAIN BOX */
 
 .main-result-box {
   display: flex;
@@ -250,7 +283,7 @@ button {
   padding-top: 16px;
 }
 
-/* MAIN-CARD */
+/* RESULT MAIN-CARD */
 
 .main-card {
   width: 30%;
@@ -301,7 +334,7 @@ button {
   color: var(--grey-booki);
 }
 
-/* POPULAR */
+/* RESULT POPULAR */
 
 .popular-title {
   display: flex;
@@ -314,12 +347,12 @@ button {
   font-size: 1.25rem;
 }
 
-/* POPULAR CARD */
+/* RESULT POPULAR CARD */
 
 .popular-card > a {
   background-color: white;
   padding: 4px 4px 4px 4px;
-  margin : 16px 0 0 0;
+  margin: 16px 0 0 0;
   border-radius: 12px;
   display: flex;
 }
@@ -330,7 +363,7 @@ button {
   border-radius: 12px 0 0 12px;
   object-fit: cover;
   object-position: center;
-  margin: 0 8px 0 0 ;
+  margin: 0 8px 0 0;
 }
 
 .popular-card h3 {
@@ -346,7 +379,6 @@ button {
   font-weight: 700;
   font-style: normal;
 }
-
 
 .popular-card-info {
   display: flex;
@@ -381,7 +413,7 @@ button {
 }
 
 .activities-card h3 {
-  padding: 16px ;
+  padding: 16px;
 }
 
 /* FOOTER */
