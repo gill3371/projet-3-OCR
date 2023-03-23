@@ -36,36 +36,36 @@
       <section id="search">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre-ville ou en pleine nature</p>
-        <form class="desktop-button" method="get" action="" class="search-bar">  <!-- Formuliare de recherche -->
+        <form class="desktop-button search-bar" method="get" action="">  <!-- Formulaire de recherche Desktop -->
           <i class="fa-solid fa-location-dot"></i>
           <input type="text" name="localisation" id="localisation" placeholder="Saisir votre ville" size="30" maxlength="20" />
           <button>Rechercher</button>
         </form>
-        <form class="mobile-button" method="get" action="" class="search-bar">  <!-- Formuliare de recherche -->
+        <form class="mobile-button search-bar" method="get" action="">  <!-- Formulaire de recherche Mobile -->
           <i class="fa-solid fa-location-dot"></i>
           <input type="text" name="localisation" id="localisation" placeholder="Saisir votre ville" size="30" maxlength="20" />
           <button><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
         <div class="filter-box">
           <h2>Filtres</h2>
-          <a href="#" class="filter-button">
+          <div class="filter-button"> <!-- Bouton de filtre avec changement couleur au survol -->
             <i class="fa-solid fa-money-bill-wave filter-icon"></i>
             <span>Économique</span>
-          </a>
-          <a href="#" class="filter-button">
+          </div>
+          <div class="filter-button">
             <i class="fa-solid fa-person filter-icon"></i>
             <span>Famille</span>
-          </a>
-          <a href="#" class="filter-button">
+          </div>
+          <div class="filter-button">
             <i class="fa-solid fa-heart filter-icon"></i>
             <span>Romantique</span>
-          </a>
-          <a href="#" class="filter-button">
+          </div>
+          <div class="filter-button">
             <i class="fa-solid fa-fire filter-icon"></i>
             <span>Nos pépites</span>
-          </a>
+          </div>
         </div>
-        <div class="info-city">
+        <div class="info-city"> <!-- Informations sur la ville recherchée -->
           <i class="fa-solid fa-info"></i>
           <p>Plus de 500 logements sont disponible dans cette ville</p>
         </div>
@@ -73,13 +73,13 @@
 
       <!-- section result -->
 
-      <section id="result">
+      <section id="result"> <!-- Zone résultat de la recherche de ville -->
         <!-- main-result zone -->
 
         <div class="main-result">
           <h1>Hébergement à Marseile</h1>
-          <div class="main-result-box">
-            <article class="main-card">
+          <div class="main-result-box"> <!-- Zone de résultat hébergement de la ville sur la première colonne -->
+            <article class="main-card"> <!-- Carte de résultat d'un hébergement avec lien, ombre et survol -->
               <a class="shadow" href="#">
                 <img src="images/hebergements/fred-kleber.jpg" alt="Hébergement Marseil - Hotel du Port" />
                 <h3>Hôtel du port</h3>
@@ -164,17 +164,17 @@
               </a>
             </article>
           </div>
-          <a class="more" href="#">Afficher plus</a>
+          <a class="more" href="#">Afficher plus</a> <!-- Lien vers les résultats supplémentaires -->
         </div>
 
         <!-- popular zone -->
 
-        <div class="popular-result">
+        <div class="popular-result"> <!-- Zone de résultat d'hébergement populaire sur la 2e colonne -->
           <div class="popular-title">
             <h1>Les plus populaires</h1>
             <i class="fa-solid fa-chart-line"></i>
           </div>
-          <article class="popular-card">
+          <article class="popular-card"> <!-- Carte de résultat hébergement populaire avec lien, ombre et survol -->
             <a href="#" class="shadow">
               <img src="images/hebergements/emile-guillemot.jpg" alt="Hébergement populaire Marseille - Hôtel La Canebière" />
               <div class="popular-card-info">
@@ -233,10 +233,10 @@
 
       <!-- section activities -->
 
-      <section id="activities">
+      <section id="activities"> <!-- Zone activités liées à la ville recherchée -->
         <h1>Activités à Marseile</h1>
         <div class="activities-box">
-          <article class="activities-card shadow">
+          <article class="activities-card shadow"> <!-- Carte d'activité de la ville recherchée -->
             <a href="#">
               <img src="images/activites/reno-laithienne.jpg" alt="Activités à Marseille - Vieux-port" />
               <h3>Vieux-port</h3>
@@ -263,24 +263,22 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer> <!-- Liens utiles -->
       <div class="footer-list">
-        <h2>A propos</h2>
-        <a href="#"><p>Fonctionnement du site</p></a>
+        <h2>A propos</h2> <!-- Informations sur le site et RGPD -->
+        <a href="#">Fonctionnement du site</a>
         <a href="#">Conditions générales</a>
         <a href="#">Données et confidentialité</a>
       </div>
       <div class="footer-list">
-        <h2>A propos</h2>
-        <a href="#"><p>Fonctionnement du site</p></a>
-        <a href="#">Conditions générales</a>
-        <a href="#">Données et confidentialité</a>
+        <h2>Nos hébergements</h2> <!-- Informations hébergement -->
+        <a href="#">Charte qualité</a>
+        <a href="#">Proposer votre hôtel</a>
       </div>
       <div class="footer-list">
-        <h2>A propos</h2>
-        <a href="#"><p>Fonctionnement du site</p></a>
-        <a href="#">Conditions générales</a>
-        <a href="#">Données et confidentialité</a>
+        <h2>Assistance</h2> <!-- Aide utilisateur -->
+        <a href="#">Centre d'aide</a>
+        <a href="#">Nous contacter</a>
       </div>
     </footer>
   </body>
