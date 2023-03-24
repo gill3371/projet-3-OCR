@@ -1,7 +1,8 @@
 :root {
   --blue-main: #0065fc;
   --blue-light: #deebff;
-  --grey-booki: #d9d9d9;
+  --grey-main: #f2f2f2f2;
+  --grey-second: #d9d9d9;
 } /* Création des variables pour changement couleurs site */
 
 body {
@@ -35,7 +36,6 @@ h2 {
 
 h3 {
   font-size: 1em;
-  font-weight: 700;
 }
 
 h4 {
@@ -75,13 +75,14 @@ span {
 header {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 60px;
 }
 
 header img {
+  width: 65px;
+  height: 25px;
+  margin-top: 30px;
   object-fit: contain;
-  width: 7%;
-  min-width: 40px;
-  max-width: 60px;
 }
 
 /* Menu de navigation */
@@ -89,10 +90,11 @@ header img {
 nav ul {
   display: flex;
   list-style: none;
+  margin: 0;
 }
 
 nav li {
-  padding-top: 3px;
+  padding-top: 16px;
   margin-right: 16px;
   border-top: 2px solid white;
 }
@@ -116,7 +118,7 @@ nav li {
 /* SECTION */
 
 #search {
-  padding: 16px 0 32px 0;
+  padding: 0 0 32px 0;
 }
 
 #search h1 {
@@ -141,17 +143,21 @@ form {
   justify-content: center;
   align-items: center;
   font-size: 1.15rem;
-  background-color: var(--grey-booki);
+  background-color: var(--grey-main);
   width: 50px;
   height: 50px;
   border-radius: 16px 0 0 16px;
 }
 
 input {
-  border: 1px solid var(--grey-booki);
+  border: 1px solid var(--grey-main);
   text-align: center;
   font-size: 1rem;
   font-weight: 700;
+  color: black;
+}
+
+input::placeholder {
   color: black;
 }
 
@@ -209,7 +215,7 @@ input {
   align-items: center;
   padding: 8px 12px 8px 12px;
   margin: 0 0 0 16px;
-  border: 2px solid var(--grey-booki);
+  border: 2px solid var(--grey-second);
   border-radius: 30px;
 }
 
@@ -239,7 +245,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid var(--grey-booki);
+  border: 2px solid var(--grey-second);
   border-radius: 512px;
 }
 
@@ -266,7 +272,7 @@ input {
 .main-result,
 .popular-result {
   border-radius: 16px;
-  background-color: var(--grey-booki);
+  background-color: var(--grey-main);
   padding: 32px;
   box-sizing: border-box;
 }
@@ -289,6 +295,7 @@ input {
 /* La zone résultat d'hébergement de la ville */
 
 .main-result-box {
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -349,7 +356,7 @@ input {
 }
 
 .inactive-star {
-  color: var(--grey-booki);
+  color: var(--grey-main);
 }
 
 /* RESULT POPULAR */
@@ -441,7 +448,7 @@ input {
 /* FOOTER */
 
 footer {
-  background-color: var(--grey-booki);
+  background-color: var(--grey-main);
   padding: 32px 32px 32px 32px;
   display: flex;
   justify-content: space-between;
